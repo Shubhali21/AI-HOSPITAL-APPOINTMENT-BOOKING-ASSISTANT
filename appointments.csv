@@ -1,0 +1,12 @@
+patient_name,age,gender,symptoms,preferred_doctor,preferred_time,appointment_date,contact_number
+shubhali chaudhary,23.0,female,fever,Dr.Suresh Iyer,1 pm,tomorrow,678387476.0
+Ashish chaudhary,29.0,male,fever,Dr. Suresh Iyer,12:00 PM,tomorrow,678387476.0
+shridevi,55.0,female,fever,Dr.Suresh Iyer,morning,tomorrow,778676656.0
+Shubhali Chaudhary,34.0,female,fever,Dr.Suresh Iyer,12:00 PM,tomorrow,6654543437.0
+Ravi Singh,43.0,male,stomach ace,Dr.Suresh Iyer,1:30 PM,today,887676544.0
+,,,,,,,
+Shristi singh,22.0,female,nausea,Dr.meera joshi,3:15 PM,today,7645893221.0
+KIRTI DUBEY,12,FEMALE,DIARRHEA,Dr. Neha Verma,10:00 AM,TOMORROW,9876543210
+Shivam gupta,36,male,back pain,Suresh Iyer,1 pm,tomorrow,9876543234
+,,,,,,,
+SHIVA,,,,,,,

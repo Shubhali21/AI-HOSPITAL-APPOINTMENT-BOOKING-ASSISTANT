@@ -1,0 +1,21 @@
+Doctor Consultation Schedule
+
+Dr. Anjali Sharma - Cardiologist - 9:00 AM – 11:00 AM
+
+Dr. Rajeev Menon - Orthopedic Surgeon - 11:00 AM – 1:00 PM
+
+Dr. Priya Kapoor - Dermatologist - 2:00 PM – 4:00 PM
+
+Dr. Amitabh Sinha - Neurologist - 4:00 PM – 6:00 PM
+
+Dr. Neha Verma - Pediatrician - 10:00 AM – 12:00 PM
+
+Dr. Suresh Iyer - General Physician - 12:00 PM – 2:00 PM
+
+Dr. Meera Joshi - Gynecologist - 3:00 PM – 5:00 PM
+
+Dr. Arjun Patel - Psychiatrist - 5:00 PM – 7:00 PM
+
+Dr. Kavita Rao - ENT Specialist - 8:00 AM – 10:00 AM
+
+Dr. Vikram Singh - Ophthalmologist - 6:00 PM – 8:00 PM

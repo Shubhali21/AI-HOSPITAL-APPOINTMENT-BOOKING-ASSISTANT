@@ -1,0 +1,9 @@
+Department,Doctor Name,Specialization,Symptoms Treated,Consultation Time Slots
+Cardiology,Dr. A. Mehta,Heart Specialist,Chest pain; Breathlessness; Palpitations,10:00 AM - 12:00 PM
+Orthopedics,Dr. S. Kumar,Bone & Joint Specialist,Back pain; Fractures; Arthritis,2:00 PM - 4:00 PM
+General Medicine,Dr. P. Sharma,General Physician,Fever; Cold; Headache; Weakness,9:00 AM - 11:00 AM
+Dermatology,Dr. R. Gupta,Skin Specialist,Acne; Rashes; Skin allergy; Hair fall,1:00 PM - 3:00 PM
+Pediatrics,Dr. N. Singh,Child Specialist,Cough; Fever in children; Vaccination,11:00 AM - 1:00 PM
+Gynecology,Dr. M. Verma,Female Health Specialist,Menstrual issues; Pregnancy checkup,3:00 PM - 5:00 PM
+ENT,Dr. K. Bajaj,Ear Nose Throat Specialist,Sinus; Ear pain; Sore throat,10:30 AM - 12:30 PM
+Neurology,Dr. D. Rao,Nerve Specialist,Headache; Seizures; Memory issues,4:00 PM - 6:00 PM
