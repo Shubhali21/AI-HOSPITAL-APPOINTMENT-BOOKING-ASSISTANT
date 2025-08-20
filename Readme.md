@@ -19,8 +19,7 @@ It also suggests the most suitable doctor based on the patient's symptoms and ma
 ## ⚙️ Tech Stack
 - **FastAPI** – REST API framework.
 - **LangChain** – For chaining prompts and workflows.
-- **LLM (OpenAI / HuggingFace models)** – For natural language understanding.
-- **Vector Database (Optional)** – For storing patient-doctor conversation history.
+- **LLM (google gemini)** – For natural language understanding and conversation.
 - **Prompt Engineering** – To ensure accurate reasoning for booking workflows.
 
 ---
