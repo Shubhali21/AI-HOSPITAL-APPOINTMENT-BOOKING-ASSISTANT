@@ -4,7 +4,7 @@ import json
 
 
 
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_google_genai.chat_models import ChatGoogleGenerativeAI
 from langchain.prompts import ChatPromptTemplate
 from langchain.prompts import PromptTemplate
 from src.prompts.conversational_prompt import prompt,extracted_prompt
@@ -13,11 +13,11 @@ from src.utils.jsontocsv import save_to_csv,process_data_and_save
 from dotenv import load_dotenv
 load_dotenv()
 
-
+api_key = os.getenv("GOOGLE_API_KEY")
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash",
     temperature=0,
-    google_api_key=os.getenv("GOOGLE_API_KEY")
+    google_api_key=api_key
     
 )    
 

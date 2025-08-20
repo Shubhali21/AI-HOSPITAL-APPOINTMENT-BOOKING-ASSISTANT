@@ -5,22 +5,16 @@ from src.data2 import changing
 
 app = FastAPI()
 
-# Temporary in-memory storage for the example
+
 temp_storage = {}
 
-# Step 1 — GET endpoint (collect details via query parameters)
 @app.get("/collect/")
 def collect_details(
     name: str = Query(..., description="User's full name"),
     email: str = Query(..., description="User's email ID"),
     action: str = Query(..., description="BOOK or change")
 ):
-    # Validate email domain (optional, you can skip this if not needed)
-    # Example: Ensure ends with @google.com
-    # if not email.lower().endswith("@google.com"):
-    #     return {"error": "Email must end with @google.com"}
 
-    # Store temporarily (in real code you'd use DB/session)
     temp_storage["name"] = name
     temp_storage["email"] = email
     temp_storage["action"] = action.strip().upper()
@@ -31,9 +25,8 @@ def collect_details(
     }
 
 
-# Step 2 — POST endpoint (process the collected details)
 class OperationRequest(BaseModel):
-    message: str = None  # Optional user message for booking/change process
+    message: str = None  
 
 @app.post("/process/")
 def process_action(request: OperationRequest):
